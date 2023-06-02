@@ -1,0 +1,29 @@
+<p align="center">
+<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+</p>
+
+
+CREATE TABLE ScoobyShack (BARCODE INTEGER PRIMARY KEY, Item_Name TEXT, Inventory INTEGER, Collectible TEXT, Dollar_Price INTEGER, Shipper TEXT);
+
+INSERT INTO ScoobyShack VALUES (1, "Scrappy bobblehead", 4, "Yes", 45, "Fed Ex");
+
+INSERT INTO ScoobyShack VALUES (2, "Velma Bobblehead", 10, "Yes", 87, "Ebay");
+
+INSERT INTO ScoobyShack VALUES (3, "Scooby Doo Van Toy", 56, "No", 30, "Amazon");
+
+INSERT INTO ScoobyShack VALUES (4, "Season 1 DVD set", 8, "Yes", 18, "Amazon");
+
+INSERT INTO ScoobyShack VALUES (5, "Scooby Crew Blanket", 17, "No", 49, "Amazon");
+
+INSERT INTO ScoobyShack VALUES (6, "Shaggy Crew Socks", 66, "No", 19, "Amazon");
+
+INSERT INTO ScoobyShack VALUES (7, "Scooby Doo Crew Socks", 33, "No", 19, "Amazon");
+
+INSERT INTO ScoobyShack VALUES (8, "Velma Crew Socks",50, "No", 19, "Amazon");
+
+INSERT INTO ScoobyShack VALUES (9, "Scooby Doo Van Flag",50, "Yes", 39, "Ebay");
+
+INSERT INTO ScoobyShack VALUES (10, "Scooby Doo Crew T-shirt",40, "Yes", 25, "Fed Ex");
+
+SELECT * FROM ScoobyShack WHERE Dollar_Price > 1 ORDER BY Dollar_Price;
+
