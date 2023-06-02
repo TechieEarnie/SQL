@@ -8,7 +8,7 @@
 
 <h2>VIDEO DEMONSTRATION</h2>
 
-- ### [YouTube: Scooby Shack Store Database functioning]()
+- ### [YouTube: Scooby Shack Store Database functioning](https://youtu.be/7zc9WyKPtXc)
 
 
 
