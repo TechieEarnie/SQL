@@ -3,6 +3,11 @@
 </p>
 
 
+<h2>VIDEO DEMONSTRATION</h2>
+
+- ### [YouTube: Scooby Shack Store Database functioning]()
+
+
 CREATE TABLE ScoobyShack (BARCODE INTEGER PRIMARY KEY, Item_Name TEXT, Inventory INTEGER, Collectible TEXT, Dollar_Price INTEGER, Shipper TEXT);
 
 INSERT INTO ScoobyShack VALUES (1, "Scrappy bobblehead", 4, "Yes", 45, "Fed Ex");
